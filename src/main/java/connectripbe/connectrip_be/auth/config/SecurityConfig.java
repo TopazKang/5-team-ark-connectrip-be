@@ -58,11 +58,11 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowedOrigins(Arrays.asList(
                 "http://localhost:3000/",
-                "https://dev.connectrip.travel/",
-                "https://connectrip.travel/",
+                "https://dev.connectrip.website/",
+                "https://connectrip.website/",
                 "ws://localhost:3000/",  // WebSocket for local development
-                "wss://dev.connectrip.travel/",  // Secure WebSocket for development environment
-                "wss://connectrip.travel/"  // Secure WebSocket for production environment
+                "wss://dev.connectrip.website/",  // Secure WebSocket for development environment
+                "wss://connectrip.website/"  // Secure WebSocket for production environment
         ));
         configuration.addAllowedMethod("*");
         configuration.addAllowedHeader("*");
